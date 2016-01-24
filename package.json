@@ -22,7 +22,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.1.1",
     "gulp-tslint": "^4.3.1",
-    "jspm": "^0.16.24",
+    "jspm": "^0.16.19",
     "tslint": "^3.3.0",
     "vinyl-paths": "^2.1.0"
   },
