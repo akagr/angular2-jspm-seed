@@ -5,7 +5,8 @@
   "repository": "https://github.com/akagr/angular2-jspm-seed",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp watch"
+    "start": "gulp watch",
+    "build": "jspm bundle dest/boot dest/build.js --skip-source-maps --minify"
   },
   "keywords": [
     "angular",
