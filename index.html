@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" data-framework="angularjs">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />
+    <title>Angular 2 JSPM</title>
+</head>
+<body>
+    <noscript>
+        <div class="deprecation-warning">
+          <h1>Please enable Javascript</h1>
+          <p>Demo requires your browser to have Javascript enabled.
+          <a href="http://enable-javascript.com" target="_blank">Learn more</a></p>
+        </div>
+    </noscript>
+
+    <script type="text/javascript" src="jspm_packages/system.js"></script>
+    <script type="text/javascript" src="config.js"></script>
+
+    <script type="text/javascript">
+        System.import('dest/app/boot.ts');
+    </script>
+    <my-app></my-app>
+</body>
+</html>
