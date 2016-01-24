@@ -2,8 +2,10 @@
   "name": "angular2-jspm-seed",
   "version": "0.0.1",
   "description": "Seed for bootstrapping angular 2 applications using jspm",
+  "repository": "https://github.com/akagr/angular2-jspm-seed",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp watch"
   },
   "keywords": [
     "angular",
@@ -34,8 +36,5 @@
     "devDependencies": {
       "typescript": "npm:typescript@^1.6.2"
     }
-  },
-  "scripts": {
-      "start": "gulp watch"
   }
 }
